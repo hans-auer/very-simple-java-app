@@ -10,7 +10,7 @@ pipeline {
             passwordVariable: 'CONTAINER_REGISTRY_PASSWORD']
           ]) {
             sh './buildImage.sh'
-            sh 'echo Hola'
+            sh 'echo Hola Hans'
           }
         }
       }
